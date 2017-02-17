@@ -1,0 +1,22 @@
+{
+  "name": "test-r-nodejs",
+  "version": "1.0.0",
+  "description": "Test interaction between R and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcionicolau/test-r-nodejs.git"
+  },
+  "author": "Marcio Nicolau <marcio.nicolau@embrapa.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcionicolau/test-r-nodejs/issues"
+  },
+  "homepage": "https://github.com/marcionicolau/test-r-nodejs#readme",
+  "dependencies": {
+    "rstats": "git+https://github.com/marcionicolau/node-Rstats.git"
+  }
+}
