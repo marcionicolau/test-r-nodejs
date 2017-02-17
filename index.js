@@ -2,19 +2,20 @@ var rstats  = require('rstats');
 
 var R  = new rstats.session();
 
-R.parseEvalQ("cat('\n Hello World \n')");
+// R.parseEvalQ("cat('\n Hello World \n')");
 
-var x = R.parseEval("c(1,2,3)");
+// var x = R.parseEval("c(1,2,3)");
 
-console.log(x);
+// console.log(x);
 
 R.assign('x', 17);
 R.assign('y', 3);
 
 // calculate the sum of x+y and print the result
-R.parseEvalQ("res = x + y; print(res);");
+// R.parseEvalQ("res = x + y; print(res);");
 
-var res = R.get('res');
+var res = R.get('x');
+// var res = R.get('res');
 
 console.log(res);
 
