@@ -7,6 +7,7 @@ var R  = new rstats.session();
 // var x = R.parseEval("c(1,2,3)");
 
 // console.log(x);
+debugger;
 
 R.assign('x', 17);
 R.assign('y', 3);
